@@ -25,5 +25,10 @@
     <PackageReference Include="System.Reactive.Interfaces" Version="6.0.0" />
     <PackageReference Include="System.Reactive.Linq" Version="6.0.0" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="DependencyManager\" />
+    <Folder Include="ClientMappings\" />
+  </ItemGroup>
 </Project>
